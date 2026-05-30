@@ -1,7 +1,7 @@
 {
   "name": "Mission_Required_Members_Min1_All",
-  "version": "1.3",
-  "description": "PATCH 1.08 > Updated offsets from factionnode.pabgb. Sets the minimum required members to 1 for all faction mission nodes while preserving each mission's existing maximum member count and category. Offsets are plain decimal byte offsets.",
+  "version": "1.4",
+  "description": "PATCH 1.09 > Updated offsets from factionnode.pabgb. Sets the minimum required members to 1 for all faction mission nodes while preserving each mission's existing maximum member count and category. Offsets are plain decimal byte offsets.",
   "author": "CODEX",
   "patches": [
     {
