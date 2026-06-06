@@ -1,1406 +1,1406 @@
 {
-  "name": "Mission_Required_Members_Min1_All",
-  "version": "1.4",
-  "description": "PATCH 1.09 > Updated offsets from factionnode.pabgb. Sets the minimum required members to 1 for all faction mission nodes while preserving each mission's existing maximum member count and category. Offsets are plain decimal byte offsets.",
-  "author": "CODEX",
+  "name": "Mission_Required_Members_Min1_All_1.10.01_UPDATED",
+  "version": "1.10.01",
+  "description": "Sets minimum required members to 1 for faction missions. Offsets remapped and updated for Crimson Desert 1.10.01.",
+  "author": "CODEX PATCH BY HEVERTONJCS",
   "patches": [
     {
       "game_file": "gamedata/factionnode.pabgb",
       "changes": [
         {
-          "offset": 1086,
+          "offset": 1115,
           "label": "[MissionMin1] Node_Her_HernandCastle / Building! min 4 -> 1 (max 4)",
           "original": "04000000",
           "patched": "01000000"
         },
         {
-          "offset": 9829,
+          "offset": 13642,
           "label": "[MissionMin1] Node_Her_ArboriaCraftshop / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 10181,
+          "offset": 14008,
           "label": "[MissionMin1] Node_Her_ArboriaCraftshop / Ranching! min 2 -> 1 (max 9)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 10548,
+          "offset": 14389,
           "label": "[MissionMin1] Node_Her_ArboriaCraftshop / Weaving! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 21651,
+          "offset": 31649,
           "label": "[MissionMin1] Node_Her_OakenshieldManor_Serkis / Strengthening! min 2 -> 1 (max 4)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 22612,
+          "offset": 32639,
           "label": "[MissionMin1] Node_Her_CapraPasture / Farming! min 2 -> 1 (max 4)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 25432,
+          "offset": 35533,
           "label": "[MissionMin1] Node_Her_PeacefulFishingDock / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 27094,
+          "offset": 40867,
           "label": "[MissionMin1] Node_Her_HellwoodSlaveCamp / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 28089,
+          "offset": 41891,
           "label": "[MissionMin1] Node_Her_GreymaneCamp / Building! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 28545,
+          "offset": 42361,
           "label": "[MissionMin1] Node_Her_GreymaneCamp / Building! min 4 -> 1 (max 4)",
           "original": "04000000",
           "patched": "01000000"
         },
         {
-          "offset": 29044,
+          "offset": 42874,
           "label": "[MissionMin1] Node_Her_GreymaneCamp / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 29543,
+          "offset": 43387,
           "label": "[MissionMin1] Node_Her_GreymaneCamp / Building! min 10 -> 1 (max 10)",
           "original": "0A000000",
           "patched": "01000000"
         },
         {
-          "offset": 30007,
+          "offset": 43865,
           "label": "[MissionMin1] Node_Her_GreymaneCamp / Building! min 6 -> 1 (max 6)",
           "original": "06000000",
           "patched": "01000000"
         },
         {
-          "offset": 30472,
+          "offset": 44344,
           "label": "[MissionMin1] Node_Her_GreymaneCamp / Building! min 6 -> 1 (max 6)",
           "original": "06000000",
           "patched": "01000000"
         },
         {
-          "offset": 34446,
+          "offset": 48421,
           "label": "[MissionMin1] Node_Her_BluemontWineHouse / Foodprocessing! min 2 -> 1 (max 4)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 35416,
+          "offset": 57324,
           "label": "[MissionMin1] Node_Her_MuckrootRanch / Ranching! min 2 -> 1 (max 4)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 35841,
+          "offset": 57763,
           "label": "[MissionMin1] Node_Her_MuckrootRanch / Building! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 36837,
+          "offset": 49474,
           "label": "[MissionMin1] Node_Her_KarinQuarry / Mining! min 2 -> 1 (max 4)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 37241,
+          "offset": 49892,
           "label": "[MissionMin1] Node_Her_KarinQuarry / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 38303,
+          "offset": 54611,
           "label": "[MissionMin1] Node_Her_StreamsidePier / Building! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 38651,
+          "offset": 54973,
           "label": "[MissionMin1] Node_Her_StreamsidePier / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 39619,
+          "offset": 55970,
           "label": "[MissionMin1] Node_Her_BloomwoodRanch / Ranching! min 2 -> 1 (max 4)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 39966,
+          "offset": 56331,
           "label": "[MissionMin1] Node_Her_BloomwoodRanch / Ranching! min 2 -> 1 (max 4)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 40989,
+          "offset": 58828,
           "label": "[MissionMin1] Node_Her_PervinFort / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 42590,
+          "offset": 64289,
           "label": "[MissionMin1] Node_Her_PervinQuarry / Mining! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 47355,
+          "offset": 69313,
           "label": "[MissionMin1] Node_Her_TimberhamSawmill / Logging! min 2 -> 1 (max 4)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 49003,
+          "offset": 71005,
           "label": "[MissionMin1] Node_Her_TimberWagonFactory / Engineering! min 6 -> 1 (max 6)",
           "original": "06000000",
           "patched": "01000000"
         },
         {
-          "offset": 49417,
+          "offset": 71433,
           "label": "[MissionMin1] Node_Her_TimberWagonFactory / Engineering! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 49832,
+          "offset": 71862,
           "label": "[MissionMin1] Node_Her_TimberWagonFactory / Engineering! min 10 -> 1 (max 10)",
           "original": "0A000000",
           "patched": "01000000"
         },
         {
-          "offset": 52130,
+          "offset": 79838,
           "label": "[MissionMin1] Node_Her_WarspikeSpearmaker / Forging! min 2 -> 1 (max 4)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 54998,
+          "offset": 81633,
           "label": "[MissionMin1] Node_Her_GreystoneManor_Felix / Strengthening! min 2 -> 1 (max 4)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 56589,
+          "offset": 83268,
           "label": "[MissionMin1] Node_Her_RodbelFishingDock / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 57581,
+          "offset": 84289,
           "label": "[MissionMin1] Node_Her_InksworthPrinter / Drawing! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 57977,
+          "offset": 84699,
           "label": "[MissionMin1] Node_Her_InksworthPrinter / Drawing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 60381,
+          "offset": 87175,
           "label": "[MissionMin1] Node_Her_SouthQuarry / Mining! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 69211,
+          "offset": 99293,
           "label": "[MissionMin1] Node_Her_KilndenKukuWorkshop / Engineering! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 71522,
+          "offset": 101663,
           "label": "[MissionMin1] Node_Her_VelluaVillage / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 71868,
+          "offset": 102023,
           "label": "[MissionMin1] Node_Her_VelluaVillage / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 73452,
+          "offset": 103651,
           "label": "[MissionMin1] Node_Her_RichFishingSite / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 77922,
+          "offset": 108195,
           "label": "[MissionMin1] Node_Her_ReachwoodRuins / Refining! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 78898,
+          "offset": 109200,
           "label": "[MissionMin1] Node_Her_FlorindaleVillage / Crafting! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 79305,
+          "offset": 109621,
           "label": "[MissionMin1] Node_Her_FlorindaleVillage / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 84047,
+          "offset": 114482,
           "label": "[MissionMin1] Node_Her_FlowerDustBeeFarm / Ranching! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 85112,
+          "offset": 115576,
           "label": "[MissionMin1] Node_Her_WindHillFactory / Engineering! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 85584,
+          "offset": 116062,
           "label": "[MissionMin1] Node_Her_WindHillFactory / Engineering! min 6 -> 1 (max 6)",
           "original": "06000000",
           "patched": "01000000"
         },
         {
-          "offset": 86069,
+          "offset": 116561,
           "label": "[MissionMin1] Node_Her_WindHillFactory / Engineering! min 7 -> 1 (max 7)",
           "original": "07000000",
           "patched": "01000000"
         },
         {
-          "offset": 87079,
+          "offset": 117600,
           "label": "[MissionMin1] Node_Her_GlenbrightFarm / Farming! min 2 -> 1 (max 4)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 87424,
+          "offset": 117959,
           "label": "[MissionMin1] Node_Her_GlenbrightFarm / Farming! min 2 -> 1 (max 4)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 89734,
+          "offset": 120328,
           "label": "[MissionMin1] Node_Her_HalsiusHospital / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 99532,
+          "offset": 130365,
           "label": "[MissionMin1] Node_Cal_CalphadeRefinery / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 100587,
+          "offset": 131449,
           "label": "[MissionMin1] Node_Cal_CalphadeGunpowderFactory / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 101007,
+          "offset": 131883,
           "label": "[MissionMin1] Node_Cal_CalphadeGunpowderFactory / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 102018,
+          "offset": 132923,
           "label": "[MissionMin1] Node_Cal_CalphadeLoggingCamp / Logging! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 104228,
+          "offset": 135192,
           "label": "[MissionMin1] Node_Cal_CalphadeFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 104575,
+          "offset": 135553,
           "label": "[MissionMin1] Node_Cal_CalphadeFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 117108,
+          "offset": 148374,
           "label": "[MissionMin1] Node_Her_RuinedChapel / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 119395,
+          "offset": 150720,
           "label": "[MissionMin1] Node_Her_SeniaVillage / Engineering! min 7 -> 1 (max 7)",
           "original": "07000000",
           "patched": "01000000"
         },
         {
-          "offset": 121562,
+          "offset": 152929,
           "label": "[MissionMin1] Node_Dem_RoyalTomb / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 125254,
+          "offset": 156468,
           "label": "[MissionMin1] Node_Dem_PecusRanch / Ranching! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 125599,
+          "offset": 156827,
           "label": "[MissionMin1] Node_Dem_PecusRanch / Ranching! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 126570,
+          "offset": 157827,
           "label": "[MissionMin1] Node_Dem_GrassfieldRanch / Ranching! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 126920,
+          "offset": 158191,
           "label": "[MissionMin1] Node_Dem_GrassfieldRanch / Ranching! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 129800,
+          "offset": 164773,
           "label": "[MissionMin1] Node_Dem_DemenissArmory / Engineering! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 130211,
+          "offset": 165198,
           "label": "[MissionMin1] Node_Dem_DemenissArmory / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 130611,
+          "offset": 165612,
           "label": "[MissionMin1] Node_Dem_DemenissArmory / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 132788,
+          "offset": 167848,
           "label": "[MissionMin1] Node_Dem_BrokenHouse / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 141191,
+          "offset": 176447,
           "label": "[MissionMin1] Node_Dem_AzerianManor / Building! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 141559,
+          "offset": 176829,
           "label": "[MissionMin1] Node_Dem_AzerianManor / Strengthening! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 142545,
+          "offset": 177844,
           "label": "[MissionMin1] Node_Dem_PurringtonFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 142890,
+          "offset": 178203,
           "label": "[MissionMin1] Node_Dem_PurringtonFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 143847,
+          "offset": 179189,
           "label": "[MissionMin1] Node_Dem_HayscentFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 144877,
+          "offset": 180248,
           "label": "[MissionMin1] Node_Dem_LacusFarm / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 145231,
+          "offset": 180616,
           "label": "[MissionMin1] Node_Dem_LacusFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 146191,
+          "offset": 181605,
           "label": "[MissionMin1] Node_Dem_CanalsideFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 147154,
+          "offset": 182597,
           "label": "[MissionMin1] Node_Dem_RustleleafFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 149393,
+          "offset": 188523,
           "label": "[MissionMin1] Node_Dem_SungroveManor_Marcella / Strengthening! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 151149,
+          "offset": 190323,
           "label": "[MissionMin1] Node_Dem_KingMountainDigSite / Refining! min 9 -> 1 (max 9)",
           "original": "09000000",
           "patched": "01000000"
         },
         {
-          "offset": 152108,
+          "offset": 191311,
           "label": "[MissionMin1] Node_Dem_ClearBellFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 153073,
+          "offset": 192305,
           "label": "[MissionMin1] Node_Dem_GreenfieldFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 153417,
+          "offset": 192663,
           "label": "[MissionMin1] Node_Dem_GreenfieldFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 154379,
+          "offset": 193654,
           "label": "[MissionMin1] Node_Dem_StonewellFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 155357,
+          "offset": 194661,
           "label": "[MissionMin1] Node_Dem_CowbellRanch / Weaving! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 155689,
+          "offset": 195007,
           "label": "[MissionMin1] Node_Dem_CowbellRanch / Ranching! min 2 -> 1 (max 9)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 157420,
+          "offset": 196782,
           "label": "[MissionMin1] Node_Dem_HayroofFarm / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 157778,
+          "offset": 197154,
           "label": "[MissionMin1] Node_Dem_HayroofFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 158120,
+          "offset": 197510,
           "label": "[MissionMin1] Node_Dem_HayroofFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 159959,
+          "offset": 199143,
           "label": "[MissionMin1] Node_Dem_SlopeseedFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 160910,
+          "offset": 200123,
           "label": "[MissionMin1] Node_Dem_WhitemillFarm / Foodprocessing! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 161260,
+          "offset": 200487,
           "label": "[MissionMin1] Node_Dem_WhitemillFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 162212,
+          "offset": 201468,
           "label": "[MissionMin1] Node_Dem_SundellFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 163786,
+          "offset": 203086,
           "label": "[MissionMin1] Node_Dem_SeedrowFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 164743,
+          "offset": 204072,
           "label": "[MissionMin1] Node_Dem_CattlefoldRanch / Foodprocessing! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 165096,
+          "offset": 204439,
           "label": "[MissionMin1] Node_Dem_CattlefoldRanch / Ranching! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 166059,
+          "offset": 205431,
           "label": "[MissionMin1] Node_Dem_GreenpondFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 167038,
+          "offset": 206439,
           "label": "[MissionMin1] Node_Dem_SunsetDyehouse / Drawing! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 168641,
+          "offset": 208086,
           "label": "[MissionMin1] Node_Dem_VinewoodWinery / Foodprocessing! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 169699,
+          "offset": 209173,
           "label": "[MissionMin1] Node_Dem_IronbarrelWeaponFactory / Forging! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 170705,
+          "offset": 210204,
           "label": "[MissionMin1] Node_Dem_BulwarkWeaponFactory / Engineering! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 171105,
+          "offset": 210618,
           "label": "[MissionMin1] Node_Dem_BulwarkWeaponFactory / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 172403,
+          "offset": 211694,
           "label": "[MissionMin1] Node_Dem_StronghelmFactory / Forging! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 174687,
+          "offset": 214037,
           "label": "[MissionMin1] Node_Dem_BurnhandQuarry / Mining! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 175651,
+          "offset": 218946,
           "label": "[MissionMin1] Node_Dem_SpringdaleFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 177242,
+          "offset": 220581,
           "label": "[MissionMin1] Node_Dem_HoneywoodBeeFarm / Foodprocessing! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 177596,
+          "offset": 220949,
           "label": "[MissionMin1] Node_Dem_HoneywoodBeeFarm / Ranching! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 181690,
+          "offset": 225147,
           "label": "[MissionMin1] Node_Dem_Moonlake / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 186068,
+          "offset": 229379,
           "label": "[MissionMin1] Node_Dem_ThornRoseFoodStorage / Strengthening! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 192777,
+          "offset": 236252,
           "label": "[MissionMin1] Node_Dem_IronwoodPottery / Ornamenting! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 193740,
+          "offset": 237244,
           "label": "[MissionMin1] Node_Dem_IronwoodFarm / Farming! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 206533,
+          "offset": 254351,
           "label": "[MissionMin1] Node_Dem_SilvermoonHQ / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 206879,
+          "offset": 254711,
           "label": "[MissionMin1] Node_Dem_SilvermoonHQ / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 208444,
+          "offset": 256320,
           "label": "[MissionMin1] Node_Dem_SmugglersDock / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 213463,
+          "offset": 261211,
           "label": "[MissionMin1] Node_Dem_ReventineWinery / Foodprocessing! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 220713,
+          "offset": 268636,
           "label": "[MissionMin1] Node_Del_PortDelesyia / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 221059,
+          "offset": 268996,
           "label": "[MissionMin1] Node_Del_PortDelesyia / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 224813,
+          "offset": 272597,
           "label": "[MissionMin1] Node_Del_MarniWorkshop / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 225221,
+          "offset": 273019,
           "label": "[MissionMin1] Node_Del_MarniWorkshop / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 225629,
+          "offset": 273441,
           "label": "[MissionMin1] Node_Del_MarniWorkshop / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 226037,
+          "offset": 273863,
           "label": "[MissionMin1] Node_Del_MarniWorkshop / Engineering! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 226432,
+          "offset": 274272,
           "label": "[MissionMin1] Node_Del_MarniWorkshop / Engineering! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 226906,
+          "offset": 274760,
           "label": "[MissionMin1] Node_Del_MarniWorkshop / Engineering! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 227861,
+          "offset": 275744,
           "label": "[MissionMin1] Node_Del_SaltMine / Foodprocessing! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 228206,
+          "offset": 276103,
           "label": "[MissionMin1] Node_Del_SaltMine / Mining! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 234069,
+          "offset": 282059,
           "label": "[MissionMin1] Node_Del_MarniPark / Building! min 4 -> 1 (max 4)",
           "original": "04000000",
           "patched": "01000000"
         },
         {
-          "offset": 236919,
+          "offset": 284983,
           "label": "[MissionMin1] Node_Del_StarVillage / Weaving! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 237892,
+          "offset": 285985,
           "label": "[MissionMin1] Node_Del_StarVillageDigSite / Strengthening! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 238375,
+          "offset": 286482,
           "label": "[MissionMin1] Node_Del_StarVillageDigSite / Crafting! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 239983,
+          "offset": 288130,
           "label": "[MissionMin1] Node_Del_FullharvestFarm / Farming! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 240330,
+          "offset": 288491,
           "label": "[MissionMin1] Node_Del_FullharvestFarm / Farming! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 243447,
+          "offset": 291425,
           "label": "[MissionMin1] Node_Del_ElderglenPlantation / Farming! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 244510,
+          "offset": 292517,
           "label": "[MissionMin1] Node_Del_SweetbloomPlantation / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 244875,
+          "offset": 292896,
           "label": "[MissionMin1] Node_Del_SweetbloomPlantation / Farming! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 245936,
+          "offset": 293986,
           "label": "[MissionMin1] Node_Neut_GorthakIronMaker / Forging! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 246343,
+          "offset": 294407,
           "label": "[MissionMin1] Node_Neut_GorthakIronMaker / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 246756,
+          "offset": 294834,
           "label": "[MissionMin1] Node_Neut_GorthakIronMaker / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 247169,
+          "offset": 295261,
           "label": "[MissionMin1] Node_Neut_GorthakIronMaker / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 247582,
+          "offset": 295688,
           "label": "[MissionMin1] Node_Neut_GorthakIronMaker / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 249949,
+          "offset": 298084,
           "label": "[MissionMin1] Node_Neut_GorthakLoggingCamp / Logging! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 250355,
+          "offset": 298504,
           "label": "[MissionMin1] Node_Neut_GorthakLoggingCamp / Engineering! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 251971,
+          "offset": 300164,
           "label": "[MissionMin1] Node_Neut_ZarganTankFactory / Engineering! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 252371,
+          "offset": 300578,
           "label": "[MissionMin1] Node_Neut_ZarganTankFactory / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 252784,
+          "offset": 301005,
           "label": "[MissionMin1] Node_Neut_ZarganTankFactory / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 253197,
+          "offset": 301432,
           "label": "[MissionMin1] Node_Neut_ZarganTankFactory / Engineering! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 255094,
+          "offset": 303374,
           "label": "[MissionMin1] Node_Neut_KrallFoundry / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 262420,
+          "offset": 310849,
           "label": "[MissionMin1] Node_Del_WindroseFarm / Farming! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 263373,
+          "offset": 311827,
           "label": "[MissionMin1] Node_Del_StonewardPort / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 265919,
+          "offset": 314185,
           "label": "[MissionMin1] Node_Del_SteelspikeWeaponStorage / Forging! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 266339,
+          "offset": 314619,
           "label": "[MissionMin1] Node_Del_SteelspikeWeaponStorage / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 266764,
+          "offset": 315058,
           "label": "[MissionMin1] Node_Del_SteelspikeWeaponStorage / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 267190,
+          "offset": 315498,
           "label": "[MissionMin1] Node_Del_SteelspikeWeaponStorage / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 267615,
+          "offset": 315937,
           "label": "[MissionMin1] Node_Del_SteelspikeWeaponStorage / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 268666,
+          "offset": 317017,
           "label": "[MissionMin1] Node_Del_RustfieldScrapyard / Forging! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 269073,
+          "offset": 317438,
           "label": "[MissionMin1] Node_Del_RustfieldScrapyard / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 269486,
+          "offset": 317865,
           "label": "[MissionMin1] Node_Del_RustfieldScrapyard / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 269899,
+          "offset": 318292,
           "label": "[MissionMin1] Node_Del_RustfieldScrapyard / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 270312,
+          "offset": 318719,
           "label": "[MissionMin1] Node_Del_RustfieldScrapyard / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 271334,
+          "offset": 319770,
           "label": "[MissionMin1] Node_Del_DewhavenLoggingCamp / Logging! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 272923,
+          "offset": 321403,
           "label": "[MissionMin1] Node_Del_MistwoodLake / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 273943,
+          "offset": 322452,
           "label": "[MissionMin1] Node_Del_WindCliffFort / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 278069,
+          "offset": 330450,
           "label": "[MissionMin1] Node_Del_CornfieldFarm / Farming! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 279655,
+          "offset": 332080,
           "label": "[MissionMin1] Node_Del_RivershackPier / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 280596,
+          "offset": 333050,
           "label": "[MissionMin1] Node_Del_FishersRest / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 281671,
+          "offset": 334154,
           "label": "[MissionMin1] Node_Del_SnakeTemple / Refining! min 9 -> 1 (max 9)",
           "original": "09000000",
           "patched": "01000000"
         },
         {
-          "offset": 285139,
+          "offset": 337711,
           "label": "[MissionMin1] Node_Neut_GoldenGoblinWineMaker / Foodprocessing! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 286099,
+          "offset": 338700,
           "label": "[MissionMin1] Node_Neut_CacaoFarm / Farming! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 287069,
+          "offset": 339699,
           "label": "[MissionMin1] Node_Neut_BrewingFacility / Foodprocessing! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 288030,
+          "offset": 340689,
           "label": "[MissionMin1] Node_Neut_WineTradePost / Foodprocessing! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 292906,
+          "offset": 345684,
           "label": "[MissionMin1] Node_Crim_Crimson_Mountains_Station / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 293987,
+          "offset": 346794,
           "label": "[MissionMin1] Node_Del_LoggingCampTransferStation / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 296309,
+          "offset": 349175,
           "label": "[MissionMin1] Node_Del_Drywind_Valley_Station / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 301983,
+          "offset": 357477,
           "label": "[MissionMin1] Node_Del_MarniMechFactory / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 302395,
+          "offset": 357903,
           "label": "[MissionMin1] Node_Del_MarniMechFactory / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 302807,
+          "offset": 358329,
           "label": "[MissionMin1] Node_Del_MarniMechFactory / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 303219,
+          "offset": 358755,
           "label": "[MissionMin1] Node_Del_MarniMechFactory / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 303661,
+          "offset": 359211,
           "label": "[MissionMin1] Node_Del_MarniMechFactory / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 307154,
+          "offset": 365366,
           "label": "[MissionMin1] Node_Del_MarniAirLab / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 307560,
+          "offset": 365786,
           "label": "[MissionMin1] Node_Del_MarniAirLab / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 307966,
+          "offset": 366206,
           "label": "[MissionMin1] Node_Del_MarniAirLab / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 308372,
+          "offset": 366626,
           "label": "[MissionMin1] Node_Del_MarniAirLab / Engineering! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 313534,
+          "offset": 379300,
           "label": "[MissionMin1] Node_Neut_SolonTownHallRuins / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 317079,
+          "offset": 383004,
           "label": "[MissionMin1] Node_Kwe_Pailune / Building! min 10 -> 1 (max 10)",
           "original": "0A000000",
           "patched": "01000000"
         },
         {
-          "offset": 317548,
+          "offset": 383487,
           "label": "[MissionMin1] Node_Kwe_Pailune / Building! min 10 -> 1 (max 10)",
           "original": "0A000000",
           "patched": "01000000"
         },
         {
-          "offset": 317990,
+          "offset": 383943,
           "label": "[MissionMin1] Node_Kwe_Pailune / Building! min 10 -> 1 (max 10)",
           "original": "0A000000",
           "patched": "01000000"
         },
         {
-          "offset": 318473,
+          "offset": 384440,
           "label": "[MissionMin1] Node_Kwe_Pailune / Building! min 10 -> 1 (max 10)",
           "original": "0A000000",
           "patched": "01000000"
         },
         {
-          "offset": 318956,
+          "offset": 384937,
           "label": "[MissionMin1] Node_Kwe_Pailune / Building! min 10 -> 1 (max 10)",
           "original": "0A000000",
           "patched": "01000000"
         },
         {
-          "offset": 319440,
+          "offset": 385435,
           "label": "[MissionMin1] Node_Kwe_Pailune / Building! min 10 -> 1 (max 10)",
           "original": "0A000000",
           "patched": "01000000"
         },
         {
-          "offset": 322928,
+          "offset": 389012,
           "label": "[MissionMin1] Node_Kwe_SequoiaForest / Logging! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 331387,
+          "offset": 409180,
           "label": "[MissionMin1] Node_Kwe_PailuneCampsite / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 335282,
+          "offset": 413178,
           "label": "[MissionMin1] Node_Kwe_BeighenVillage / Logging! min 5 -> 1 (max 7)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 336868,
+          "offset": 414808,
           "label": "[MissionMin1] Node_Kwe_BeighenBasketMaker / Crafting! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 341766,
+          "offset": 419826,
           "label": "[MissionMin1] Node_Kwe_SkoghornWharf / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 342727,
+          "offset": 420816,
           "label": "[MissionMin1] Node_Kwe_SkoghornRanch / Ranching! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 343685,
+          "offset": 421803,
           "label": "[MissionMin1] Node_Kwe_SkoghornFarm / Farming! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 344728,
+          "offset": 422875,
           "label": "[MissionMin1] Node_Kwe_LongleafTreeVillage / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 346978,
+          "offset": 425184,
           "label": "[MissionMin1] Node_Kwe_RidgehunterLeatherMaker / Weaving! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 348562,
+          "offset": 426812,
           "label": "[MissionMin1] Node_Kwe_SvinholtRanch / Ranching! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 349563,
+          "offset": 427842,
           "label": "[MissionMin1] Node_Kwe_HorpbothHarpoonery / Logging! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 351167,
+          "offset": 429490,
           "label": "[MissionMin1] Node_Kwe_SkallcoveVillage / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 352742,
+          "offset": 431109,
           "label": "[MissionMin1] Node_Kwe_VannsteinLake / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 353759,
+          "offset": 432155,
           "label": "[MissionMin1] Node_Kwe_WindsongMountain / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 355452,
+          "offset": 433892,
           "label": "[MissionMin1] Node_Kwe_OdeckVillage / Building! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 355787,
+          "offset": 434241,
           "label": "[MissionMin1] Node_Kwe_OdeckVillage / Foodprocessing! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 356731,
+          "offset": 435214,
           "label": "[MissionMin1] Node_Kwe_OdeckPier / Fishing! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 358414,
+          "offset": 436941,
           "label": "[MissionMin1] Node_Kwe_VerheimRuins / Refining! min 8 -> 1 (max 8)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 362509,
+          "offset": 441140,
           "label": "[MissionMin1] Node_Kwe_AshclawKeep / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 367290,
+          "offset": 446036,
           "label": "[MissionMin1] Node_Crim_Tashkalp / Building! min 4 -> 1 (max 4)",
           "original": "04000000",
           "patched": "01000000"
         },
         {
-          "offset": 368523,
+          "offset": 447047,
           "label": "[MissionMin1] Node_Crim_WatermelonFarm / Farming! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 375976,
+          "offset": 454676,
           "label": "[MissionMin1] Node_Crim_VarniaTradePost / Ornamenting! min 5 -> 1 (max 5)",
           "original": "05000000",
           "patched": "01000000"
         },
         {
-          "offset": 380050,
+          "offset": 458296,
           "label": "[MissionMin1] Node_Crim_RockVillage / Strengthening! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 386379,
+          "offset": 464509,
           "label": "[MissionMin1] Node_Crim_DesertOasis / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 389944,
+          "offset": 468159,
           "label": "[MissionMin1] Node_Crim_SaltroadTradePost / Forging! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 390961,
+          "offset": 469205,
           "label": "[MissionMin1] Node_Crim_SaltroadCamp / Strengthening! min 10 -> 1 (max 10)",
           "original": "0A000000",
           "patched": "01000000"
         },
         {
-          "offset": 392867,
+          "offset": 470905,
           "label": "[MissionMin1] Node_Crim_MuiquunVillage / Forging! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 395769,
+          "offset": 473881,
           "label": "[MissionMin1] Node_Crim_HelmaraVillage / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 396172,
+          "offset": 474298,
           "label": "[MissionMin1] Node_Crim_HelmaraVillage / Engineering! min 2 -> 1 (max 2)",
           "original": "02000000",
           "patched": "01000000"
         },
         {
-          "offset": 400394,
+          "offset": 478624,
           "label": "[MissionMin1] Node_Crim_StompsandFortRuins / Refining! min 10 -> 1 (max 10)",
           "original": "0A000000",
           "patched": "01000000"
         },
         {
-          "offset": 402081,
+          "offset": 480355,
           "label": "[MissionMin1] Node_Crim_FallenAbyss / Refining! min 10 -> 1 (max 10)",
           "original": "0A000000",
           "patched": "01000000"
         },
         {
-          "offset": 403097,
+          "offset": 481435,
           "label": "[MissionMin1] Node_Crim_RedMountainFort / Mining! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 404800,
+          "offset": 486893,
           "label": "[MissionMin1] Node_Crim_TimewornRuins / Refining! min 10 -> 1 (max 10)",
           "original": "0A000000",
           "patched": "01000000"
         },
         {
-          "offset": 407645,
+          "offset": 490057,
           "label": "[MissionMin1] Node_Crim_FortManub / Mining! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 421710,
+          "offset": 512168,
           "label": "[MissionMin1] Node_Crim_KurmaniRedtree / Farming! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 422056,
+          "offset": 512528,
           "label": "[MissionMin1] Node_Crim_KurmaniRedtree / Farming! min 8 -> 1 (max 10)",
           "original": "08000000",
           "patched": "01000000"
         },
         {
-          "offset": 630015,
+          "offset": 723718,
           "label": "[MissionMin1] Node_Dem_SouthGreyManeTemple / Ritual! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 630563,
+          "offset": 724281,
           "label": "[MissionMin1] Node_Dem_WestGreyManeTemple / Ritual! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 631110,
+          "offset": 724843,
           "label": "[MissionMin1] Node_Dem_EastGreyManeTemple / Ritual! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 631650,
+          "offset": 725398,
           "label": "[MissionMin1] Node_Del_GreyManeTemple / Ritual! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 632204,
+          "offset": 725967,
           "label": "[MissionMin1] Node_Musket_EastGreyManeTemple / Ritual! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 632757,
+          "offset": 726535,
           "label": "[MissionMin1] Node_Musket_WestGreyManeTemple / Ritual! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 633306,
+          "offset": 727099,
           "label": "[MissionMin1] Node_CatchfireGreyManeTemple / Ritual! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 633846,
+          "offset": 727654,
           "label": "[MissionMin1] Node_Her_GreyManeTemple / Ritual! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 634395,
+          "offset": 728218,
           "label": "[MissionMin1] Node_Her_SouthGreyManeTemple / Ritual! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 634945,
+          "offset": 728783,
           "label": "[MissionMin1] Node_Her_NorthGreyManeTemple / Ritual! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 635488,
+          "offset": 729341,
           "label": "[MissionMin1] Node_Odeck_GreyManeTemple / Ritual! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
         },
         {
-          "offset": 636027,
+          "offset": 729895,
           "label": "[MissionMin1] Node_Cal_GreyManeTemple / Ritual! min 3 -> 1 (max 3)",
           "original": "03000000",
           "patched": "01000000"
