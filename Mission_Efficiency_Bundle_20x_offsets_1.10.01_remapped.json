@@ -1,0 +1,181 @@
+{
+  "name": "Mission_Efficiency_Bundle_20x_1.10.01_UPDATED",
+  "version": "1.10.01",
+  "description": "Mission efficiency bundle 20x remapped and updated for Crimson Desert 1.10.01.",
+  "author": "Codex",
+  "patches": [
+    {
+      "game_file": "gamedata/skill.pabgb",
+      "changes": [
+        {
+          "offset": 1098484,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Farming_I 10 -> 200",
+          "original": "10270000",
+          "patched": "400d0300"
+        },
+        {
+          "offset": 1098873,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Farming_II 30 -> 600",
+          "original": "30750000",
+          "patched": "c0270900"
+        },
+        {
+          "offset": 1099263,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Farming_III 60 -> 1200",
+          "original": "60ea0000",
+          "patched": "804f1200"
+        },
+        {
+          "offset": 1099652,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Ranching_I 10 -> 200",
+          "original": "10270000",
+          "patched": "400d0300"
+        },
+        {
+          "offset": 1100042,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Ranching_II 30 -> 600",
+          "original": "30750000",
+          "patched": "c0270900"
+        },
+        {
+          "offset": 1100433,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Ranching_III 60 -> 1200",
+          "original": "60ea0000",
+          "patched": "804f1200"
+        },
+        {
+          "offset": 1100821,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Logging_I 10 -> 200",
+          "original": "10270000",
+          "patched": "400d0300"
+        },
+        {
+          "offset": 1101210,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Logging_II 30 -> 600",
+          "original": "30750000",
+          "patched": "c0270900"
+        },
+        {
+          "offset": 1101600,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Logging_III 60 -> 1200",
+          "original": "60ea0000",
+          "patched": "804f1200"
+        },
+        {
+          "offset": 1101987,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Mining_I 10 -> 200",
+          "original": "10270000",
+          "patched": "400d0300"
+        },
+        {
+          "offset": 1102375,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Mining_II 30 -> 600",
+          "original": "30750000",
+          "patched": "c0270900"
+        },
+        {
+          "offset": 1102764,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Mining_III 60 -> 1200",
+          "original": "60ea0000",
+          "patched": "804f1200"
+        },
+        {
+          "offset": 1103155,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Forging_I 10 -> 200",
+          "original": "10270000",
+          "patched": "400d0300"
+        },
+        {
+          "offset": 1103553,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Forging_II 30 -> 600",
+          "original": "30750000",
+          "patched": "c0270900"
+        },
+        {
+          "offset": 1103952,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Forging_III 60 -> 1200",
+          "original": "60ea0000",
+          "patched": "804f1200"
+        },
+        {
+          "offset": 1104352,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Strengthening_I 10 -> 200",
+          "original": "10270000",
+          "patched": "400d0300"
+        },
+        {
+          "offset": 1104760,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Strengthening_II 30 -> 600",
+          "original": "30750000",
+          "patched": "c0270900"
+        },
+        {
+          "offset": 1105169,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Strengthening_III 60 -> 1200",
+          "original": "60ea0000",
+          "patched": "804f1200"
+        },
+        {
+          "offset": 1105570,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Fishing_I 10 -> 200",
+          "original": "10270000",
+          "patched": "400d0300"
+        },
+        {
+          "offset": 1105959,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Fishing_II 30 -> 600",
+          "original": "30750000",
+          "patched": "c0270900"
+        },
+        {
+          "offset": 1106349,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Fishing_III 60 -> 1200",
+          "original": "60ea0000",
+          "patched": "804f1200"
+        },
+        {
+          "offset": 1114534,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Gathering_I 10 -> 200",
+          "original": "10270000",
+          "patched": "400d0300"
+        },
+        {
+          "offset": 1114925,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Gathering_II 30 -> 600",
+          "original": "30750000",
+          "patched": "c0270900"
+        },
+        {
+          "offset": 1115317,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Gathering_III 60 -> 1200",
+          "original": "60ea0000",
+          "patched": "804f1200"
+        },
+        {
+          "offset": 1115705,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Banking_I 10 -> 200",
+          "original": "10270000",
+          "patched": "400d0300"
+        },
+        {
+          "offset": 1116094,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Banking_II 30 -> 600",
+          "original": "30750000",
+          "patched": "c0270900"
+        },
+        {
+          "offset": 1116484,
+          "label": "[MissionEfficiencyBundle_20x] Skill_Banking_III 60 -> 1200",
+          "original": "60ea0000",
+          "patched": "804f1200"
+        },
+        {
+          "offset": 1116869,
+          "label": "[MissionEfficiencyBundle_20x] Skill_SuperWorker 100 -> 2000",
+          "original": "a0860100",
+          "patched": "80841e00"
+        }
+      ]
+    }
+  ]
+}
