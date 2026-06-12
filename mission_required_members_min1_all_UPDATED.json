@@ -1,8 +1,8 @@
 {
-  "name": "Mission_Required_Members_Min1_All_1.10.01_UPDATED",
-  "version": "1.10.01",
-  "description": "Sets minimum required members to 1 for faction missions. Offsets remapped and updated for Crimson Desert 1.10.01.",
-  "author": "CODEX PATCH BY HEVERTONJCS",
+  "name": "Mission_Required_Members_Min1_All_1.11_UPDATED",
+  "version": "1.11",
+  "description": "Sets minimum required members to 1 for faction missions. Updated for Crimson Desert 1.11.",
+  "author": "CODEX",
   "patches": [
     {
       "game_file": "gamedata/factionnode.pabgb",
