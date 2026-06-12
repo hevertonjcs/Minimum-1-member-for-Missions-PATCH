@@ -1,8 +1,8 @@
 {
   "modinfo": {
-    "title": "MEGA STACKS 999999 V2.4 1.10.01 UPDATED",
-    "version": "2.4-1.10.01",
-    "description": "Sets the stack size of all items to 999999. Format 2 (entry-anchored). Updated for Crimson Desert 1.10.01 (2513 patches). Original by ALOO PC; rebuilt by Mr.MidNight.",
+    "title": "MEGA STACKS 999999 V2.4 1.11 UPDATED",
+    "version": "2.4-1.11",
+    "description": "Sets the stack size of all items to 999999. Format 2 (entry-anchored). Updated for Crimson Desert 1.11 (2513 patches). Original by ALOO PC; rebuilt by Mr.MidNight.",
     "author": "Mr.MidNight (original by ALOO PC)"
   },
   "format": 2,
@@ -12802,7 +12802,7 @@
         {
           "entry": "Item_Egg_KuKu",
           "rel_offset": 1,
-          "original": "32000000",
+          "original": "01000000",
           "patched": "3f420f00",
           "label": "Item_Egg_KuKu"
         },
