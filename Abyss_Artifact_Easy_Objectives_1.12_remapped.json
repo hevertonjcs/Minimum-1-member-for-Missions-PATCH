@@ -1,0 +1,999 @@
+{
+  "name": "Abyss_Artifact_Easy_Objectives_1.12_UPDATED",
+  "version": "5.0-1.12",
+  "description": "Abyss Artifact objectives made easier. Offsets remapped and updated for Crimson Desert 1.12.",
+  "author": "Satou86",
+  "format": 1,
+  "allow_partial_apply": false,
+  "patches": [
+    {
+      "game_file": "gamedata/missioninfo.pabgb",
+      "changes": [
+        {
+          "offset": 1100420,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_OneHandSword_I_2 time 30s -> 600s",
+          "original": "1e000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1100424,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_OneHandSword_I_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1101447,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_OneHandSword_II_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1102548,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_OneHandSword_III_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1103572,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_OneHandSword_IV_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1104708,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_OneHandSword_V_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1105764,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_OneHandSword_VI_2 time 15s -> 600s",
+          "original": "0f000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1105768,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_OneHandSword_VI_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1106778,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Shield_I_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1107782,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Shield_II_2 required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1108789,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Shield_III_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1109871,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Shield_IV_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1110874,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Shield_V_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1111912,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Shield_VI_2 time 60s -> 600s",
+          "original": "3c000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1111916,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Shield_VI_2 required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1112949,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Bow_I_2 time 60s -> 600s",
+          "original": "3c000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1112953,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Bow_I_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1114062,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Bow_II_2 required count 7 -> 1",
+          "original": "07000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1115174,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Bow_III_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1116172,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Bow_IV_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1117165,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Bow_V_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1118197,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Bow_VI_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1119193,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Spear_I_2 time 30s -> 600s",
+          "original": "1e000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1119197,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Spear_I_2 required count 15 -> 1",
+          "original": "0f000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1120232,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Spear_II_2 time 30s -> 600s",
+          "original": "1e000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1120236,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Spear_II_2 required count 30 -> 1",
+          "original": "1e000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1121275,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Spear_III_2 time 15s -> 600s",
+          "original": "0f000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1121279,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Spear_III_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1122316,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Spear_IV_2 time 60s -> 600s",
+          "original": "3c000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1122320,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Spear_IV_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1123394,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Spear_V_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1124409,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_TwohandWeapon_I_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1125509,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_TwohandWeapon_II_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1126573,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_TwohandWeapon_III_2 time 30s -> 600s",
+          "original": "1e000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1126577,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_TwohandWeapon_III_2 required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1127638,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_TwohandWeapon_IV_2 time 30s -> 600s",
+          "original": "1e000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1127642,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_TwohandWeapon_IV_2 required count 30 -> 1",
+          "original": "1e000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1128705,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_TwohandWeapon_V_2 required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1129730,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_TwohandWeapon_VI_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1130740,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Cannon_I_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1131817,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Cannon_II_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1132182,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Cannon_II_3 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1132549,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Cannon_II_4 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1132915,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Cannon_II_5 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1133282,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Cannon_II_6 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1134361,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Cannon_III_2 time 30s -> 600s",
+          "original": "1e000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1134365,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Cannon_III_2 required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1136408,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Cannon_V_2 time 10s -> 600s",
+          "original": "0a000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1136412,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Cannon_V_2 required count 2 -> 1",
+          "original": "02000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1137447,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Rapier_I_2 time 60s -> 600s",
+          "original": "3c000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1137451,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Rapier_I_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1138530,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Rapier_II_2 required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1139537,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Rapier_III_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1140543,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Rapier_IV_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1141579,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Rapier_V_2 time 15s -> 600s",
+          "original": "0f000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1141583,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Rapier_V_2 required count 9 -> 1",
+          "original": "09000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1142580,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Gun_I_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1143609,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Gun_II_2 time 5s -> 600s",
+          "original": "05000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1143613,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Gun_II_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1144611,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Gun_III_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1145608,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Gun_IV_2 required count 7 -> 1",
+          "original": "07000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1146639,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Gun_V_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1147002,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Gun_V_3 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1147363,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Gun_V_4 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1148410,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_SpecialWeapon_I_2 time 15s -> 600s",
+          "original": "0f000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1148414,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_SpecialWeapon_I_2 required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1149440,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_SpecialWeapon_II_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1150466,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_SpecialWeapon_III_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1151492,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_SpecialWeapon_IV_2 required count 30 -> 1",
+          "original": "1e000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1152516,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_SpecialWeapon_V_2 required count 30 -> 1",
+          "original": "1e000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1154531,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_SpecialWeapon_VII_2 required count 30 -> 1",
+          "original": "1e000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1155563,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_SpecialWeapon_VIII_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1156591,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_SpecialWeapon_IX_2 required count 30 -> 1",
+          "original": "1e000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1157616,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_SpecialWeapon_X_2 required count 100 -> 1",
+          "original": "64000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1158609,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Vehicle_I_2 required count 2 -> 1",
+          "original": "02000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1159664,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Vehicle_II_2 time 300s -> 600s",
+          "original": "2c010000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1159668,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Vehicle_II_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1160726,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Vehicle_III_2 time 300s -> 600s",
+          "original": "2c010000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1160730,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Vehicle_III_2 required count 20 -> 1",
+          "original": "14000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1161824,
+          "label": "[Vehicle_IV_Easy] Challenge_SealedArtifact_Vehicle_IV_2 / Harmonious Hooves IV time 40 min -> 24 hr",
+          "original": "60090000",
+          "patched": "80510100"
+        },
+        {
+          "offset": 1162885,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Vehicle_V_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1163979,
+          "label": "[SealedArtifact_Easy_V4_Remaining] Challenge_SealedArtifact_Vehicle_VI_2 time 600s -> 86400s",
+          "original": "58020000",
+          "patched": "80510100"
+        },
+        {
+          "offset": 1167318,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Vehicle_VIII_2 time 300s -> 600s",
+          "original": "2c010000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1167322,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Vehicle_VIII_2 required count 30 -> 1",
+          "original": "1e000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1170997,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Battle_I_2 time 60s -> 600s",
+          "original": "3c000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1171001,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Battle_I_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1174130,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Battle_IV_2 time 30s -> 600s",
+          "original": "1e000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1174134,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Battle_IV_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1176255,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Battle_VI_2 required count 7 -> 1",
+          "original": "07000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1177333,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Battle_VII_2 required count 6 -> 1",
+          "original": "06000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1177701,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Battle_VII_3 required count 6 -> 1",
+          "original": "06000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1178069,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Battle_VII_4 required count 6 -> 1",
+          "original": "06000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1178437,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Battle_VII_5 required count 6 -> 1",
+          "original": "06000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1178804,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Battle_VII_6 required count 6 -> 1",
+          "original": "06000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1179930,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Battle_VIII_2 required count 2 -> 1",
+          "original": "02000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1182129,
+          "label": "[SealedArtifact_Easy_V5_SafeOnly] Challenge_SealedArtifact_Mastery_Battle_X_2 / Battle 10 Bare Courage required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1183170,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_I_2 time 180s -> 600s",
+          "original": "b4000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1183174,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_I_2 required count 30 -> 1",
+          "original": "1e000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1184186,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_II_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1185196,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_III_2 time 5s -> 600s",
+          "original": "05000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1185200,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_III_2 required count 9 -> 1",
+          "original": "09000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1186250,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_IV_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1187259,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_V_2 required count 7 -> 1",
+          "original": "07000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1188270,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_VI_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1189284,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_VII_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1190302,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_VIII_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1191349,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_IX_2 time 30s -> 600s",
+          "original": "1e000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1191353,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_IX_2 required count 7 -> 1",
+          "original": "07000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1192397,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_X_2 time 60s -> 600s",
+          "original": "3c000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1192401,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Skirmish_X_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1193411,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Operation_I_2 required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1194500,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Operation_II_2 required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1195516,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Operation_III_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1196567,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Operation_IV_2 time 60s -> 600s",
+          "original": "3c000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1196571,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Operation_IV_2 required count 30 -> 1",
+          "original": "1e000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1199017,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Operation_VI_2 time 60s -> 600s",
+          "original": "3c000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1199021,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Operation_VI_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1200038,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Operation_VII_2 required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1202037,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Mastery_Operation_IX_2 required count 2 -> 1",
+          "original": "02000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1204043,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Hunting_I_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1205027,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Hunting_II_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1206127,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Hunting_III_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1207114,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Hunting_IV_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1208097,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Hunting_V_2 required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1209080,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Hunting_VI_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1210103,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Hunting_VII_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1210464,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Hunting_VII_3 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1210825,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Hunting_VII_4 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1211889,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Hunting_VIII_2 required count 6 -> 1",
+          "original": "06000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1218306,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_I_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1218664,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_I_3 required count 22 -> 1",
+          "original": "16000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1219021,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_I_4 required count 6 -> 1",
+          "original": "06000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1220002,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_II_2 required count 18 -> 1",
+          "original": "12000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1220984,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_III_2 required count 8 -> 1",
+          "original": "08000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1221965,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_IV_2 required count 76 -> 1",
+          "original": "4c000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1222979,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_V_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1223337,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_V_3 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1223694,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_V_4 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1224805,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_VI_2 required count 25 -> 1",
+          "original": "19000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1225240,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_VI_3 required count 15 -> 1",
+          "original": "0f000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1225599,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_VI_4 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1225956,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_VI_5 required count 11 -> 1",
+          "original": "0b000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1226956,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_VII_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1227315,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_VII_3 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1229664,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_IX_2 required count 30 -> 1",
+          "original": "1e000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1230679,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_X_2 required count 9 -> 1",
+          "original": "09000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1231037,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_X_3 required count 19 -> 1",
+          "original": "13000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1231395,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_X_4 required count 18 -> 1",
+          "original": "12000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1232641,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_XI_2 required count 7 -> 1",
+          "original": "07000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1233624,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Living_XII_2 required count 100 -> 1",
+          "original": "64000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1234867,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Trust_I_2 required count 8 -> 1",
+          "original": "08000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1239187,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Trust_III_2 required count 4 -> 1",
+          "original": "04000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1243319,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Crime_I_2 required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1244297,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Crime_II_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1245279,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Crime_III_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1246260,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Crime_IV_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1248962,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Crime_VI_2 required count 10 -> 1",
+          "original": "0a000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1249939,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Crime_VII_2 time 10s -> 600s",
+          "original": "0a000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1249943,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Crime_VII_2 required count 5 -> 1",
+          "original": "05000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1250964,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_Crime_VIII_2 required count 20 -> 1",
+          "original": "14000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1254648,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_ChallengeAndChange_I_2 time 30s -> 600s",
+          "original": "1e000000",
+          "patched": "58020000"
+        },
+        {
+          "offset": 1255668,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_ChallengeAndChange_II_2 required count 12 -> 1",
+          "original": "0c000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1256685,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_ChallengeAndChange_III_2 required count 20 -> 1",
+          "original": "14000000",
+          "patched": "01000000"
+        },
+        {
+          "offset": 1261806,
+          "label": "[SealedArtifact_Easy_V2] Challenge_SealedArtifact_ChallengeAndChange_VII_2 required count 3 -> 1",
+          "original": "03000000",
+          "patched": "01000000"
+        }
+      ]
+    }
+  ]
+}
