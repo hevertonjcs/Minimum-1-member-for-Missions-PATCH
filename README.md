@@ -20,3 +20,12 @@ Other than that, everything is working correctly.
 
 Enjoy the game.
 ________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+PATCH 1.12
+
+Mission_Efficiency_Bundle_20x: 28 changes applied to gamedata/skill.pabgb
+Mission_Required_Members_Min1_All: 233 changes applied to gamedata/factionnode.pabgb
+MEGA_STACKS_999999_V2.4: 2513 changes applied to gamedata/iteminfo.pabgb
+MEGA_STACKS originals adjusted for 1.12: 0
+
+Note: In MEGA STACKS, no original values ​​needed adjusting this time. It maintains the base offsets of 1.12.
