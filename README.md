@@ -29,3 +29,14 @@ MEGA_STACKS_999999_V2.4: 2513 changes applied to gamedata/iteminfo.pabgb
 MEGA_STACKS originals adjusted for 1.12: 0
 
 Note: In MEGA STACKS, no original values ​​needed adjusting this time. It maintains the base offsets of 1.12.
+
+________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+PATCH 1.12.1 HOTFIX
+
+Mission_Efficiency_Bundle_20x: 28 alteracoes aplicadas em gamedata/skill.pabgb
+Mission_Required_Members_Min1_All: 233 alteracoes aplicadas em gamedata/factionnode.pabgb
+Abyss_Artifact_Easy_Objectives: 164 alteracoes aplicadas em gamedata/missioninfo.pabgb
+MEGA_STACKS_999999_V2.4: 2513 alteracoes aplicadas em gamedata/iteminfo.pabgb
+MEGA_STACKS originals ajustados para hotfix: 0
+Enjoy the game.
