@@ -1,7 +1,7 @@
 {
-  "name": "Mission_Required_Members_Min1_All_1.12_UPDATED",
-  "version": "1.12",
-  "description": "Sets minimum required members to 1 for faction missions. Offsets remapped and updated for Crimson Desert 1.12.",
+  "name": "Mission_Required_Members_Min1_All_1.12.1_HOTFIX_UPDATED",
+  "version": "1.12.1-hotfix",
+  "description": "Sets minimum required members to 1 for faction missions. Updated for Crimson Desert 1.12.1 Hotfix.",
   "author": "CODEX",
   "patches": [
     {
