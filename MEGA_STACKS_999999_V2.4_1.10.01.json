@@ -1,8 +1,8 @@
 {
   "modinfo": {
-    "title": "MEGA STACKS 999999 V2.4 1.12 UPDATED",
-    "version": "2.4-1.12",
-    "description": "Sets the stack size of all items to 999999. Format 2 (entry-anchored). Updated for Crimson Desert 1.12 (2513 patches). Original by ALOO PC; rebuilt by Mr.MidNight.",
+    "title": "MEGA STACKS 999999 V2.4 1.12.1 HOTFIX UPDATED",
+    "version": "2.4-1.12.1-hotfix",
+    "description": "Sets the stack size of all items to 999999. Format 2 (entry-anchored). Updated for Crimson Desert 1.12.1 Hotfix (2513 patches). Original by ALOO PC; rebuilt by Mr.MidNight.",
     "author": "Mr.MidNight (original by ALOO PC)"
   },
   "format": 2,
